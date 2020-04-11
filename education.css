@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ a {
+ 	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	width: 100%;
+	background-color: #000; 
+
+	display: flex; 
+
+}
+
+.header_logo{
+	text-transform: uppercase;
+    color: #FFF;
+    font-weight: 800;
+    font-size: 24px;
+    margin-top:56px;
+    margin-left: 12%;
+
+}
+
+nav {
+	margin-top: 56px;
+	margin-left: 29%;
+}
+
+.topnav a {   /* стиль ссылок */
+	color: #FFF;
+	text-align: center;
+	padding: 5px 16px;
+	font-size: 14px;
+	font-weight: bold;	
+}
+
+.topnav a:hover { /* при нажатии на пункт, меню будет подсвечиваться */
+border-bottom: 3px solid #FCAC45;
+transition: 0.5s all;
+}
+.topnav .icon{
+	display: none;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+	nav{
+		margin-left: 20%;
+	}
+}
+@media screen and (max-width: 1105px) {
+
+nav{
+	margin-left: 10%;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width: 1010px) {
+.topnav a{
+	display: none;
+}
+.topnav a.icon{
+	float: right;
+	margin-top: -17px;
+	display: block;
+	color: #FFF;
+	font-size: 25px;
+}
+nav{
+	width: 100%;
+}
+.topnav.responsive{
+	position: relative;
+	top: 50px;
+	left: -200px;
+}
+header .topnav.responsive{
+	height: 340px;
+}
+.topnav.responsive a.icon{
+	position: absolute;
+	top: -50px;
+	right: -200px;
+}
+.topnav.responsive a{
+	float: none;
+	display: block;
+	text-align: left;
+}
+}
+.text{
+	color: #fff;
+}
+.main_text h1{
+	text-align: center;
+	padding-top: 30px;
+
+}
+.main_text p {
+	padding: 50px;
+	text-align: center;
+	font-size: 20px;
+	
+}
+.main_text span{
+	font-size: 44px;
+	color: red;
+}
+.main_text1 h2{
+	text-align: center;
+}
+.main_text1 p{
+	padding: 50px;
+	
+	font-size: 20px;
+	padding-left: 20%;
+	padding-right: 20%;	
+}
+.green{
+color: green;
+}
+.text {
+	background: #000;
+}
+.konec{
+
+	text-align: center;
+	height: 15vh;
+	background: #101010;
+	
+	color: #EEEEEE;
+}
+
+.ceti {
+	 margin-left: 100px;
+	 margin-top: -100px;
+}
+.ceti strong {
+	color: #EEEEEE;
+}
+.jakora{
+	padding-left: 20%;
+	font-size: 24px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+.jakora a{
+	color: #fcac45;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
